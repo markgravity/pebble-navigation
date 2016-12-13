@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D3825B11D675BDB00C68B23 /* KBPebbleMessageQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3825B01D675BDB00C68B23 /* KBPebbleMessageQueue.m */; };
+		2D3825DC1D68167400C68B23 /* StepInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3825DB1D68167400C68B23 /* StepInfo.m */; };
+		2D54131A1D69632D0064BF6D /* GeoMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5413191D69632D0064BF6D /* GeoMath.m */; };
+		2D7EF7331D51AE090099F92E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7EF7321D51AE090099F92E /* main.m */; };
+		2D7EF7361D51AE090099F92E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7EF7351D51AE090099F92E /* AppDelegate.m */; };
+		2D7EF7391D51AE090099F92E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7EF7381D51AE090099F92E /* ViewController.m */; };
+		2D7EF73C1D51AE090099F92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7EF73A1D51AE090099F92E /* Main.storyboard */; };
+		2D7EF73E1D51AE090099F92E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7EF73D1D51AE090099F92E /* Assets.xcassets */; };
+		2D7EF7411D51AE090099F92E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7EF73F1D51AE090099F92E /* LaunchScreen.storyboard */; };
+		2D96FEC21D6C7B8700A652D5 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D96FEC11D6C7B8700A652D5 /* MainController.m */; };
+		2D96FEC51D6C7BB400A652D5 /* GoogleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D96FEC41D6C7BB400A652D5 /* GoogleAPI.m */; };
+		2D96FEC81D6C7BC900A652D5 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D96FEC71D6C7BC900A652D5 /* AppManager.m */; };
+		2D96FECC1D6C7C0A00A652D5 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D96FECB1D6C7C0A00A652D5 /* Utils.m */; };
+		2D96FED11D6CB14F00A652D5 /* CLLocation+measuring.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D96FECF1D6CB14F00A652D5 /* CLLocation+measuring.m */; };
+		7D5BEC32E6674AEBF8B45265 /* libPods-pebble-navigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 968ABF116AAECDC02E1492DC /* libPods-pebble-navigation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D3825C51D675F4C00C68B23 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13BBB46ACD3AF861683B0F41 /* Pods-pebble-navigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pebble-navigation.release.xcconfig"; path = "Pods/Target Support Files/Pods-pebble-navigation/Pods-pebble-navigation.release.xcconfig"; sourceTree = "<group>"; };
+		2D3825AF1D675BDB00C68B23 /* KBPebbleMessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBPebbleMessageQueue.h; sourceTree = "<group>"; };
+		2D3825B01D675BDB00C68B23 /* KBPebbleMessageQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBPebbleMessageQueue.m; sourceTree = "<group>"; };
+		2D3825DA1D68167400C68B23 /* StepInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepInfo.h; sourceTree = "<group>"; };
+		2D3825DB1D68167400C68B23 /* StepInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepInfo.m; sourceTree = "<group>"; };
+		2D5413181D69632D0064BF6D /* GeoMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoMath.h; sourceTree = "<group>"; };
+		2D5413191D69632D0064BF6D /* GeoMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoMath.m; sourceTree = "<group>"; };
+		2D7EF72E1D51AE090099F92E /* pebble-navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pebble-navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7EF7321D51AE090099F92E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D7EF7341D51AE090099F92E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D7EF7351D51AE090099F92E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D7EF7371D51AE090099F92E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D7EF7381D51AE090099F92E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D7EF73B1D51AE090099F92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D7EF73D1D51AE090099F92E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D7EF7401D51AE090099F92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D7EF7421D51AE090099F92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D96FEC01D6C7B8700A652D5 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		2D96FEC11D6C7B8700A652D5 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		2D96FEC31D6C7BB400A652D5 /* GoogleAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleAPI.h; sourceTree = "<group>"; };
+		2D96FEC41D6C7BB400A652D5 /* GoogleAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAPI.m; sourceTree = "<group>"; };
+		2D96FEC61D6C7BC900A652D5 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		2D96FEC71D6C7BC900A652D5 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		2D96FEC91D6C7BEF00A652D5 /* Contants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contants.h; sourceTree = "<group>"; };
+		2D96FECA1D6C7C0A00A652D5 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		2D96FECB1D6C7C0A00A652D5 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		2D96FECD1D6CA7B700A652D5 /* NavigationStatusEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationStatusEnum.h; sourceTree = "<group>"; };
+		2D96FECE1D6CB14F00A652D5 /* CLLocation+measuring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+measuring.h"; sourceTree = "<group>"; };
+		2D96FECF1D6CB14F00A652D5 /* CLLocation+measuring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+measuring.m"; sourceTree = "<group>"; };
+		2D96FED01D6CB14F00A652D5 /* CLUtilsDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLUtilsDefines.h; sourceTree = "<group>"; };
+		947826E522BC8986191B60E3 /* Pods-pebble-navigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pebble-navigation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pebble-navigation/Pods-pebble-navigation.debug.xcconfig"; sourceTree = "<group>"; };
+		968ABF116AAECDC02E1492DC /* libPods-pebble-navigation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pebble-navigation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D7EF72B1D51AE080099F92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5BEC32E6674AEBF8B45265 /* libPods-pebble-navigation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D3825D91D68165D00C68B23 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				2D3825DA1D68167400C68B23 /* StepInfo.h */,
+				2D3825DB1D68167400C68B23 /* StepInfo.m */,
+				2D96FECD1D6CA7B700A652D5 /* NavigationStatusEnum.h */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		2D7EF7251D51AE080099F92E = {
+			isa = PBXGroup;
+			children = (
+				2D7EF7301D51AE090099F92E /* pebble-navigation */,
+				2D7EF72F1D51AE090099F92E /* Products */,
+				43F63B5854AF14C9D25DD1DD /* Pods */,
+				2F0AE58802A4480BAE3F6528 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D7EF72F1D51AE090099F92E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D7EF72E1D51AE090099F92E /* pebble-navigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D7EF7301D51AE090099F92E /* pebble-navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2DF6D9BE1D6826ED00B406A7 /* Componnents */,
+				2D3825D91D68165D00C68B23 /* Modal */,
+				2D7EF7341D51AE090099F92E /* AppDelegate.h */,
+				2D7EF7351D51AE090099F92E /* AppDelegate.m */,
+				2D7EF7371D51AE090099F92E /* ViewController.h */,
+				2D7EF7381D51AE090099F92E /* ViewController.m */,
+				2D96FEC01D6C7B8700A652D5 /* MainController.h */,
+				2D96FEC11D6C7B8700A652D5 /* MainController.m */,
+				2D96FEC61D6C7BC900A652D5 /* AppManager.h */,
+				2D96FEC71D6C7BC900A652D5 /* AppManager.m */,
+				2D96FEC91D6C7BEF00A652D5 /* Contants.h */,
+				2D7EF73A1D51AE090099F92E /* Main.storyboard */,
+				2D7EF73D1D51AE090099F92E /* Assets.xcassets */,
+				2D7EF73F1D51AE090099F92E /* LaunchScreen.storyboard */,
+				2D7EF7421D51AE090099F92E /* Info.plist */,
+				2D7EF7311D51AE090099F92E /* Supporting Files */,
+			);
+			path = "pebble-navigation";
+			sourceTree = "<group>";
+		};
+		2D7EF7311D51AE090099F92E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D7EF7321D51AE090099F92E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DF6D9BE1D6826ED00B406A7 /* Componnents */ = {
+			isa = PBXGroup;
+			children = (
+				2D96FECE1D6CB14F00A652D5 /* CLLocation+measuring.h */,
+				2D96FECF1D6CB14F00A652D5 /* CLLocation+measuring.m */,
+				2D96FED01D6CB14F00A652D5 /* CLUtilsDefines.h */,
+				2D3825AF1D675BDB00C68B23 /* KBPebbleMessageQueue.h */,
+				2D3825B01D675BDB00C68B23 /* KBPebbleMessageQueue.m */,
+				2D5413181D69632D0064BF6D /* GeoMath.h */,
+				2D5413191D69632D0064BF6D /* GeoMath.m */,
+				2D96FEC31D6C7BB400A652D5 /* GoogleAPI.h */,
+				2D96FEC41D6C7BB400A652D5 /* GoogleAPI.m */,
+				2D96FECA1D6C7C0A00A652D5 /* Utils.h */,
+				2D96FECB1D6C7C0A00A652D5 /* Utils.m */,
+			);
+			name = Componnents;
+			sourceTree = "<group>";
+		};
+		2F0AE58802A4480BAE3F6528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968ABF116AAECDC02E1492DC /* libPods-pebble-navigation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43F63B5854AF14C9D25DD1DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				947826E522BC8986191B60E3 /* Pods-pebble-navigation.debug.xcconfig */,
+				13BBB46ACD3AF861683B0F41 /* Pods-pebble-navigation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D7EF72D1D51AE080099F92E /* pebble-navigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D7EF7451D51AE090099F92E /* Build configuration list for PBXNativeTarget "pebble-navigation" */;
+			buildPhases = (
+				94B4B5BC379A53F53AC2B0E0 /* 📦 Check Pods Manifest.lock */,
+				2D7EF72A1D51AE080099F92E /* Sources */,
+				2D7EF72B1D51AE080099F92E /* Frameworks */,
+				2D7EF72C1D51AE080099F92E /* Resources */,
+				717427D030A5A08950B198E3 /* 📦 Embed Pods Frameworks */,
+				0A08E26A47E5E3888A64EE6D /* 📦 Copy Pods Resources */,
+				2D3825C51D675F4C00C68B23 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pebble-navigation";
+			productName = "pebble-navigation";
+			productReference = 2D7EF72E1D51AE090099F92E /* pebble-navigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D7EF7261D51AE080099F92E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mark G";
+				TargetAttributes = {
+					2D7EF72D1D51AE080099F92E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FM5NT9MLCT;
+					};
+				};
+			};
+			buildConfigurationList = 2D7EF7291D51AE080099F92E /* Build configuration list for PBXProject "pebble-navigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D7EF7251D51AE080099F92E;
+			productRefGroup = 2D7EF72F1D51AE090099F92E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D7EF72D1D51AE080099F92E /* pebble-navigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D7EF72C1D51AE080099F92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7EF7411D51AE090099F92E /* LaunchScreen.storyboard in Resources */,
+				2D7EF73E1D51AE090099F92E /* Assets.xcassets in Resources */,
+				2D7EF73C1D51AE090099F92E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A08E26A47E5E3888A64EE6D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pebble-navigation/Pods-pebble-navigation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717427D030A5A08950B198E3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pebble-navigation/Pods-pebble-navigation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94B4B5BC379A53F53AC2B0E0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D7EF72A1D51AE080099F92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7EF7391D51AE090099F92E /* ViewController.m in Sources */,
+				2D7EF7361D51AE090099F92E /* AppDelegate.m in Sources */,
+				2D3825DC1D68167400C68B23 /* StepInfo.m in Sources */,
+				2D96FECC1D6C7C0A00A652D5 /* Utils.m in Sources */,
+				2D3825B11D675BDB00C68B23 /* KBPebbleMessageQueue.m in Sources */,
+				2D7EF7331D51AE090099F92E /* main.m in Sources */,
+				2D96FEC51D6C7BB400A652D5 /* GoogleAPI.m in Sources */,
+				2D96FEC21D6C7B8700A652D5 /* MainController.m in Sources */,
+				2D54131A1D69632D0064BF6D /* GeoMath.m in Sources */,
+				2D96FEC81D6C7BC900A652D5 /* AppManager.m in Sources */,
+				2D96FED11D6CB14F00A652D5 /* CLLocation+measuring.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D7EF73A1D51AE090099F92E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D7EF73B1D51AE090099F92E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D7EF73F1D51AE090099F92E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D7EF7401D51AE090099F92E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D7EF7431D51AE090099F92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D7EF7441D51AE090099F92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D7EF7461D51AE090099F92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947826E522BC8986191B60E3 /* Pods-pebble-navigation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FM5NT9MLCT;
+				INFOPLIST_FILE = "pebble-navigation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.markg.pebble-navigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D7EF7471D51AE090099F92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BBB46ACD3AF861683B0F41 /* Pods-pebble-navigation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FM5NT9MLCT;
+				INFOPLIST_FILE = "pebble-navigation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.markg.pebble-navigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D7EF7291D51AE080099F92E /* Build configuration list for PBXProject "pebble-navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7EF7431D51AE090099F92E /* Debug */,
+				2D7EF7441D51AE090099F92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D7EF7451D51AE090099F92E /* Build configuration list for PBXNativeTarget "pebble-navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7EF7461D51AE090099F92E /* Debug */,
+				2D7EF7471D51AE090099F92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D7EF7261D51AE080099F92E /* Project object */;
+}

@@ -1,0 +1,54 @@
+{
+  "name": "watch-app",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {
+    "pebble-fctx": "1.3"
+  },
+  "devDependencies": {
+    "pebble-fctx-compiler": "^1.1.0"
+  },
+
+  "pebble": {
+    "displayName": "watch-app",
+    "uuid": "1ca78ef8-2b15-4a38-9e42-2ec611cb21a2",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": {
+      "DirectionType" : 0,
+      "DistanceToNextTurn" : 1,
+      "DistanceUnitText" : 2,
+      "DistanceToNotify" : 3,
+      "NavigationStatus" : 4
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "raw",
+          "name": "ARROW_STRAIGHT_FPATH",
+          "file": "arrow-straight.fpath"
+        },
+        {
+          "type": "raw",
+          "name": "ARROW_TURN_LEFT_FPATH",
+          "file": "arrow-turn-left.fpath"
+        },
+        {
+          "type": "raw",
+          "name": "ARROW_TURN_RIGHT_FPATH",
+          "file": "arrow-turn-right.fpath"
+        }
+      ]
+    }
+  }
+}
